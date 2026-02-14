@@ -2,24 +2,22 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# SecureNest 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: CodeNova
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Fathima  Shifana S- LBS Institue of Technology for Women
+- Member 2: Jeni R- LBS Institue of Technology for Women
 
-### Hosted Project Link
-[mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+SecureNest is a lightweight, self-hosted personal cloud storage solution that enables users to transform their local computer into a private file server. It provides a secure web-based interface for managing data without relying on expensive, third-party cloud providers.
 
 ### The Problem statement
-[What problem are you solving?]
+Many mainstream cloud services raise privacy concerns, impose strict storage limits, or require monthly subscriptions. Users often have significant unused hard drive space on their local machines but lack a streamlined way to access or manage those files remotely from other devices.
 
 ### The Solution
 [How are you solving it?]
