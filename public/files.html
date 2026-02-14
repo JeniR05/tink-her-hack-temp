@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="style.css"></head>
+<body>
+    <div class="sidebar">
+        <h2>SecureNest</h2>
+        <a href="/">Dashboard</a>
+        <a href="/upload.html">Upload</a>
+        <a href="/files.html" class="active">Files</a>
+        <a href="/logout">Logout</a>
+    </div>
+    <div class="main">
+        <h1>My Files</h1>
+        <table>
+            <thead><tr><th>Name</th><th>Size</th><th>Action</th></tr></thead>
+            <tbody id="list"></tbody>
+        </table>
+    </div>
+    <script>
+        fetch('/api/data').then(r=>r.json()).then(d=>{
+            const l=document.getElementById('list');
+            d.files.forEach(f=>{
+                l.innerHTML+=`
+                <tr>
+                    <td>${f.name}</td>
+                    <td>${(f.size/1024).toFixed(1)} KB</td>
+                    <td>
+                        <a href="/download/${f._id}" style="color:var(--blue); text-decoration:none; font-weight:bold;">Download</a> | 
+                        <form action="/delete/${f._id}" method="POST" style="display:inline">
+                            <button style="color:var(--red);background:none;border:none;cursor:pointer;font-weight:bold;">Delete</button>
+                        </form>
+                    </td>
+                </tr>`;
+            });
+        });
+    </script>
+</body>
+</html>

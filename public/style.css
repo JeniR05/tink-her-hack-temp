@@ -1,0 +1,14 @@
+:root { --bg: #0d1117; --card: #161b22; --border: #30363d; --text: #c9d1d9; --blue: #58a6ff; --green: #238636; --red: #f85149; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; display: flex; height: 100vh; }
+.sidebar { width: 240px; background: var(--card); border-right: 1px solid var(--border); padding: 20px; }
+.sidebar h2 { color: var(--blue); margin-bottom: 30px; }
+.sidebar a { display: block; color: var(--text); text-decoration: none; padding: 12px; border-radius: 6px; margin-bottom: 5px; }
+.sidebar a:hover, .sidebar a.active { background: #21262d; color: var(--blue); }
+.main { flex: 1; padding: 40px; overflow-y: auto; }
+.card { background: var(--card); border: 1px solid var(--border); padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+.form-box { max-width: 350px; margin: 100px auto; background: var(--card); padding: 30px; border-radius: 10px; border: 1px solid var(--border); }
+input { width: 100%; padding: 10px; margin: 10px 0; background: #0d1117; border: 1px solid var(--border); color: white; border-radius: 4px; box-sizing: border-box; }
+button { width: 100%; padding: 10px; background: var(--green); color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 12px; border-bottom: 1px solid var(--border); }
+.success-msg { color: #aff5b4; background: rgba(35, 134, 54, 0.1); padding: 10px; border: 1px solid var(--green); border-radius: 5px; margin-bottom: 15px; }
