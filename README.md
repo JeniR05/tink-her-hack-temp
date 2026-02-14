@@ -29,17 +29,11 @@ Many mainstream cloud services raise privacy concerns, impose strict storage lim
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used:HTML,CSS,JAVA SCRIPT
+- Frameworks used: Express.js
+- Libraries used:Multer,Bcrypt.js,Express-Session
+- Tools used: VS Code, Git
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 
 ## Features
 
