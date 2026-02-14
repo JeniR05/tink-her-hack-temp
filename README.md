@@ -44,7 +44,7 @@ We developed a "private nest" for data by building a Node.js web application tha
 ---
 
 ## Implementation
-
+​"SecureNest is a Self-Hosted Cloud Solution. While the UI is hosted on Vercel for preview purposes, the core functionality (File Upload/Download) is designed to run on a local server environment to ensure 100% data privacy. For the judges to see the buttons working perfectly, please refer to the Demo Video or follow the Local Installation steps."
 ### For Software:
 
 
