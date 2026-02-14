@@ -85,7 +85,7 @@ The Frontend (HTML/CSS) makes requests to the Node.js server. The server stores 
 
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://drive.google.com/file/d/1DZSS4oEDL4u0Fo3BeK48UW2808-IVYNm/view?usp=drivesdk
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
